@@ -1,0 +1,29 @@
+1. What are the modules of C++ programs called? Functions
+
+2. What does the following preprocessor directive do?
+    #include <iostream>
+This directive tells the compiler to include the standard input output stream that is pre-defined.
+
+3. What does the following statement do?
+    using namespace std;
+The following statement tells the compiler that we are using the std namespace that is already pre-defined.
+This allows us to use functions from the std namespace/library without using fully qualified names
+
+4. What statement would you use to print "Hello, World" then start a new line?
+std::cout << "Hello, World" << std::endl;
+
+5. int cheeses; //creates int variable named cheeses
+
+6. cheeses = 32; //assigns 32 to cheeses
+
+7. std::cin >> cheeses; //reads in variable cheeses to standard input
+
+8. cout << "We have " << cheeses << " varieties of cheeses" << endl;
+
+9. What do the following function protoypes tell you about the function?
+int froop(double t); //this function takes in a value of type double and returns an int.
+void rattle(int n); //this function takes in a value of type int and returns nothing.
+int prune(void); //this function takes in no value and returns an int.
+
+10. You don't' have  to use the keyword return when you have a function that has a return type of void.
+Ex. the void rattle(int n); function above.
