@@ -1,0 +1,43 @@
+1. Why does C++ have more than one int type?
+Having more than one int type allows you to choose the one that is best suited for
+a particular need. If you don't' want to waste extra 2bytes using an int, you can use a short.
+
+2. Declare variables matching the following descriptions
+  a. a short integer w/ the value 80
+    short x = 80;
+  b. an unsigned int with the value 42110
+    unsigned int x = 42110;
+  c. an int with the value 3000000000
+     unsigned long x = 3000000000;
+
+3. What safeguards does C++ provide to keep you from exceeding the limits of an integer type?
+C++ has no safeguards, but you can use the climits header file to determine the limits of a type.
+
+4. What is the distinction between 33L and 33?
+33L is type long wherase 33 is a normal int.
+
+5. Are the following statements equivalent?
+char grade = 65;
+char grade = 'A';
+
+They are not really equivalent because 65 is a int constant and 'A' is a char constant
+
+6. How could you use C++ to find out which character code 88 represents, come up with atleast 2 ways.
+char c = 88;
+cout << c; //this will print the char value of c
+cout << char(88); //will also print out the 88th char in the ASCII table
+
+7. Assigning a long value to a float can result in a rounding error, what about assigning a long value
+to a double?
+It depends on how large the two types are!
+
+8. Evaluate the following expressions as C++ would:
+  a. 8*9 +2 = 74
+  b. 6 * 3 / 4 = 18/4 = 4
+  c. 3/4 * 6  = 0
+  d. 6.0 * 3 / 4 = 18.0/4 = 4.5
+  e. 15 % 4 = 3
+
+9. Suppose x1 & x2 are two type double variables that you want to add as integers and assign to an int variable.
+Create a C++ statement to do this.
+int x = int(x1) + int(x2);
