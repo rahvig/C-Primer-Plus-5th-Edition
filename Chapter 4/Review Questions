@@ -1,0 +1,47 @@
+1.How would you declare each of the following:
+  a. actors is an array of 30 chars;
+    char actors[30];
+  b. betsie is an array of 100 short
+    short betsie[100];
+  c. float chuck[13];
+  d. long double dipsea[64];
+
+2. int fiveOdd[] = {1, 3, 5, 7, 9};
+
+3. int even = fiveOdd[0] + fiveOdd[4];
+
+4. cout << ideas[1] << endl;
+
+5. char burger[] = "cheeseburger";
+
+6. struct fish {
+    char kind[20];
+    int weight;
+    double length;
+};
+
+7. fish fish1;
+   fish1 = {"tuna", 5, 5.5};
+
+8. enum Response = {No, Yes, Maybe};
+
+9. double ted = 10;
+   double* tedPtr = &ted;
+   cout << *tedPtr;
+
+10. float treacle[10];
+    float* tPtr = treacle; //or &treacle[0]
+    cout << *tPtr << *(tPtr + 9); //or tPtr[0] && tPtr[9]
+
+11. cout << "Enter the size of your array: ";
+    int n;
+    cin >> n;
+    int* arr = new int[n];
+
+12. Yes valid code, basically type casts the string and cout then prints the address of the string.
+
+13. fish* newFish = new fish;
+    cout << "enter kind of fish: ";
+    cin >> newFish->kind;
+
+14. cin >> address reads a single line 
