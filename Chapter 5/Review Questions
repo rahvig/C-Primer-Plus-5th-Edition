@@ -1,0 +1,33 @@
+1. Whats the difference between an entry condition loop and exit condition loop. Which kind is each of the C++ Loops
+An entry condition loop will only execute if its condition is true,
+an exit condition loop is guaranteed to execute at least once and exits only when the exit condition is false.
+while - entry
+do while - exit
+for - entry
+
+2. Code will print
+01234
+
+3.
+0369 //exit loop
+j is 12 at the end.
+
+4. Code will print
+6
+8
+
+
+5. Code will print
+k = 8
+
+6.  for(int i = 1; i <= 64;  i *= 2){
+      cout << i << endl;
+    }
+
+7. Enclose it in brackets
+
+8. int x = (1,024); //x is assigned the hexidecimal value of 024 which is 20 in decimal.
+y = 1,024. //y is assigned 1 and 024 does nothing, but is still evaluated.
+
+9. How does cin >> ch differ from cin.get(ch) and ch = cin.get() in how it views input?
+The cin >> ch skips over whitespace, newlines and tabs when it encounters them. The other two forms read those characters 
